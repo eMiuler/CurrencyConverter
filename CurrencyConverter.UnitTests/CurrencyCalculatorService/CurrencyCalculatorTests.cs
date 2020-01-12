@@ -29,7 +29,7 @@ namespace CurrencyConverter.UnitTests.CurrencyCalculatorService
             var moneyExchangeRequest = null as MoneyExchangeRequest;
 
             //Act && Assert
-            var message = Should.Throw<DomainException>(() => 
+            var message = Should.Throw<DomainException>(() =>
                 _currencyCalculator.Convert(moneyExchangeRequest)).Message;
 
             message.ShouldBe("MoneyExchangeRequest cannot be null");

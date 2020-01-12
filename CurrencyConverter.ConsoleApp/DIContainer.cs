@@ -16,8 +16,6 @@ namespace CurrencyConverter.ConsoleApp
         public DIContainer()
         {
             var builder = new ConfigurationBuilder();
-                //.SetBasePath(Directory.GetCurrentDirectory())
-                //.AddJsonFile("appsettings.json", false, true);
             _configuration = builder.Build();
 
             var services = ConfigureServices();

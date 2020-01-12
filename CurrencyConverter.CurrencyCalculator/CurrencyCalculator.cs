@@ -1,7 +1,7 @@
-﻿using CurrencyConverter.Domain;
+﻿using CurrencyConverter.Common.Exceptions;
 using CurrencyConverter.CurrencyCalculatorService.Interfaces;
+using CurrencyConverter.Domain;
 using CurrencyConverter.ExchangeRatesProviderService.Interfaces;
-using CurrencyConverter.Common.Exceptions;
 
 namespace CurrencyConverter.CurrencyCalculatorService
 {

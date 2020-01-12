@@ -37,7 +37,7 @@ namespace CurrencyConverter.ConsoleApp
                 Console.WriteLine(ex.Message);
                 return;
             }
-            catch(Exception)
+            catch (Exception)
             {
                 Console.WriteLine("Something went wrong.");
                 return;
